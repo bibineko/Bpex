@@ -9,17 +9,19 @@ pexpectが必須です。
 
 
 ## pexpectのインストール方法
-$ sudo pip install pexpect
+pipをつかってインストールするのが最も簡単
+    $ sudo pip install pexpect
 
 
 ## pitのインストールと下準備
-$ sudo pip install pit
-$ export EDITOR=vim
-$ python
--- in python shell --
-from pit import Pit
-Pit.get('label名', {'require':{'username':'your USERNAME','password':'your PASSORD','adminpassword':'adminpass'}})
--- from here --
+同じくpipを使ってインストールするのが簡単
+    $ sudo pip install pit
+    $ export EDITOR=vim
+    $ python
+    -- in python shell --
+    from pit import Pit
+    Pit.get('label名', {'require':{'username':'your USERNAME','password':'your PASSORD','adminpassword':'adminpass'}})
+    -- from here --
 
 
 ## bpexの使い方
