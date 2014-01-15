@@ -10,11 +10,13 @@ pexpectが必須です。
 
 ## pexpectのインストール方法
 pipをつかってインストールするのが最も簡単
+
     $ sudo pip install pexpect
 
 
 ## pitのインストールと下準備
 同じくpipを使ってインストールするのが簡単
+
     $ sudo pip install pit
     $ export EDITOR=vim
     $ python
